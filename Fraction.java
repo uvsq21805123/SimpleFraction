@@ -12,6 +12,18 @@ public class Fraction {
 		this.resultat=(double)x/y;
 	}
 	
+	public Fraction(int x){
+		this.x=x;
+		this.y=1;
+		this.resultat=(double)x/y;
+	}
+
+	public Fraction(){
+		this.x=0;
+		this.y=1;
+		this.resultat=(double)x/y;
+	   }
+
 	public int getX() {
 		return x;
 	}
